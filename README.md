@@ -29,7 +29,7 @@ Website portofolio satu halaman (*single-page*) modern, responsif, dan interakti
      - 2. Web Developer (Frontend & Backend) di **galeribukujakarta.com** (Media Literasi Jakarta, Mar – Des 2023).
      - 3. Game Developer Magang di **PT. Khailabs** (2 Game Android Offline & Presentasi Desain 3D, Jun – Des 2022).
      - 4. Business System Analyst di **Universitas Telkom Jakarta** (Analisis BPMN 2.0, diagram arsitektur, SRS, 2023 – Sekarang).
-     - 5. Technical Writer di **Universitas Telkom Jakarta** (Dokumentasi teknis sistem & standarisasi API, 2023 – Sekarang).
+     - 5. Technical Writer di **PT. Neuronworks Indonesia** (Dokumentasi teknis sistem & standarisasi API, Sep – Des 2026).
    - **05. Project Portfolio (3 Proyek Unggulan)**:
      - 1. **Web Profile WAMEN HAM** (https://mugiyanto.id/ — Live Web).
      - 2. **Galeri Buku Jakarta** (https://galeribukujakarta.com — Live Web).
