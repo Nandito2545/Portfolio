@@ -40,6 +40,40 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Mobile Navigation Drawer Toggle
+  const mobileToggle = document.getElementById('mobile-toggle');
+  const mobileDrawer = document.getElementById('mobile-drawer');
+
+  if (mobileToggle && mobileDrawer) {
+    mobileToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = mobileDrawer.classList.toggle('open');
+      mobileToggle.classList.toggle('active', isOpen);
+      mobileToggle.setAttribute('aria-expanded', isOpen);
+      mobileDrawer.setAttribute('aria-hidden', !isOpen);
+    });
+
+    // Close mobile drawer when clicking any mobile item
+    document.querySelectorAll('.mobile-item, .mobile-wa-btn').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileDrawer.classList.remove('open');
+        mobileToggle.classList.remove('active');
+        mobileToggle.setAttribute('aria-expanded', 'false');
+        mobileDrawer.setAttribute('aria-hidden', 'true');
+      });
+    });
+
+    // Close when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!mobileDrawer.contains(e.target) && !mobileToggle.contains(e.target) && mobileDrawer.classList.contains('open')) {
+        mobileDrawer.classList.remove('open');
+        mobileToggle.classList.remove('active');
+        mobileToggle.setAttribute('aria-expanded', 'false');
+        mobileDrawer.setAttribute('aria-hidden', 'true');
+      }
+    });
+  }
+
   // 3. Copy Email to Clipboard & Toast
   const toast = document.getElementById('toast');
   let toastTimer = null;
