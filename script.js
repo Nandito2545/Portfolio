@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Earth Clean Up — Game Edukasi Android',
       role: 'Game Developer Magang • PT. Khailabs (Jun – Des 2022)',
       image: 'assets/earth-cleanup.png',
-      desc: 'Game Android offline edukasi interaktif tentang kepedulian lingkungan. Pemain ditantang membersihkan aneka jenis sampah di 6 zona ekosistem berbeda dengan mekanisme yang mendidik dan seru.',
+      desc: 'Game Android offline edukasi interaktif tentang kepedulian lingkungan. Status saat ini: Belum dipublikasikan secara publik, hanya berjalan lokal di perangkat Android. Pemain ditantang membersihkan aneka jenis sampah di 6 zona ekosistem berbeda dengan mekanisme yang mendidik dan seru.',
       tasks: [
         'Mengembangkan 2 game Android offline fungsional dari rancangan ide hingga siap dimainkan.',
         'Menyusun gameplay mechanics: drag-and-drop sortir sampah, sistem collision, dan scoring 3-star.',

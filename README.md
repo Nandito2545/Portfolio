@@ -24,13 +24,17 @@ Website portofolio satu halaman (*single-page*) modern, responsif, dan interakti
    - **01. Introduction (Tentang Saya)**: Profil Nandito, mahasiswa S1 Sistem Informasi Universitas Telkom Jakarta, statistik pencapaian, dan kartu foto profil.
    - **02. My Education (Pendidikan)**: Kartu linimasa interaktif (Universitas Telkom Jakarta, SMKN 2 Kraksaan - RPL, SMPN 1 Kraksaan).
    - **03. Personal Skills (Keahlian)**: Indikator meter animasi untuk Full-Stack Web Development (Laravel, PHP, MySQL, JS) dan Game Development (Android, Gameplay Logic, 3D Concept Ideation).
-   - **04. Work Experience (Pengalaman Kerja)**:
-     - Web Developer di **mugiyanto.id** (Web Profile Wakil Menteri HAM RI).
-     - Web Developer di **galeribukujakarta.com** (Media Literasi & Katalog Buku Jakarta).
-     - Game Developer Magang di **PT. Khailabs** (2 Game Android Offline & Presentasi Desain 3D).
-   - **05. Project Portfolio (Karya Unggulan)**:
-     - Filter kategori instan (*Semua*, *Web Development*, *Game Development*).
-     - **Modal Detail Proyek**: Klik kartu atau tombol "Lihat Detail" untuk memunculkan popup spesifikasi lengkap fitur & teknologi.
+   - **04. Work Experience (5 Pengalaman)**:
+     - 1. Web Developer (Frontend & Backend) di **mugiyanto.id** (Web Profile Wakil Menteri HAM RI, Jan – Jul 2025).
+     - 2. Web Developer (Frontend & Backend) di **galeribukujakarta.com** (Media Literasi Jakarta, Mar – Des 2023).
+     - 3. Game Developer Magang di **PT. Khailabs** (2 Game Android Offline & Presentasi Desain 3D, Jun – Des 2022).
+     - 4. Business System Analyst di **Universitas Telkom Jakarta** (Analisis BPMN 2.0, diagram arsitektur, SRS, 2023 – Sekarang).
+     - 5. Technical Writer di **Universitas Telkom Jakarta** (Dokumentasi teknis sistem & standarisasi API, 2023 – Sekarang).
+   - **05. Project Portfolio (3 Proyek Unggulan)**:
+     - 1. **Web Profile WAMEN HAM** (https://mugiyanto.id/ — Live Web).
+     - 2. **Galeri Buku Jakarta** (https://galeribukujakarta.com — Live Web).
+     - 3. **Earth Clean Up** (Game Android PT Khailabs — Berjalan lokal di Android).
+     - **Modal Detail Proyek**: Klik tombol "Detail Proyek" untuk popup fitur lengkap, peran, dan arsitektur teknis.
    - **06. Contact & Thank You**:
      - Desain penutup "thank you" dengan signature overlay merah.
      - Kartu kontak langsung: Email, Telepon/WA, Lokasi, Kampus.

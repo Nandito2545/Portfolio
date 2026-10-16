@@ -330,6 +330,30 @@ img {
   color: var(--color-black);
 }
 
+.cover-subtagline {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-red);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.project-status-pill {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #666666;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px dashed var(--border-subtle);
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
 /* ---------------- SLIDE 2: INTRODUCTION ---------------- */
 .slide-header {
   margin-bottom: 24px;
