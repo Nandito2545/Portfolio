@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandito Maulana Yedidkar — Portfolio</title>
+  
+  <meta name="description" content="Portfolio Nandito Maulana Yedidkar — Web & Game Developer. Mahasiswa Sistem Informasi Universitas Telkom Jakarta.">
+  <meta name="author" content="Nandito Maulana Yedidkar">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-weight=%22bold%22 fill=%22%23e62b3b%22>N</text></svg>">
+
+  <!-- Google Fonts: Space Grotesk (bold display), Inter (clean editorial body), Caveat (authentic handwritten signature) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Minimal Sticky Navigation -->
+  <nav class="sticky-nav" id="sticky-nav">
+    <div class="nav-inner">
+      <a href="#cover" class="nav-brand">nandito<span class="red-dot">.</span></a>
+      <div class="nav-menu">
+        <a href="#cover" class="nav-item active">cover</a>
+        <a href="#introduction" class="nav-item">introduction</a>
+        <a href="#education" class="nav-item">education</a>
+        <a href="#skills" class="nav-item">skills</a>
+        <a href="#experience" class="nav-item">experience</a>
+        <a href="#projects" class="nav-item">projects</a>
+        <a href="#contact" class="nav-item">contact</a>
+      </div>
+      <div class="nav-quick-actions">
+        <button class="nav-copy-btn copy-email-btn" data-email="nanditomaulanayedikar@gmail.com" title="Salin Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          <span>Salin Email</span>
+        </button>
+        <a href="https://wa.me/6283119051731?text=Halo%20Nandito,%20saya%20melihat%20portfolio%20Anda" target="_blank" rel="noopener noreferrer" class="nav-wa-btn">
+          <span>WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast-box">Email disalin ke clipboard!</div>
+
+  <!-- Page Progress Bar -->
+  <div id="scroll-bar" class="scroll-bar"></div>
+
+  <div class="portfolio-deck">
+
+    <!-- ==================== SLIDE 1: COVER / PORTFOLIO ==================== -->
+    <section class="slide-section cover-section" id="cover">
+      <div class="slide-inner cover-inner">
+        
+        <!-- Big Centered Title with Red Signature Overlay (EXACT PDF PAGE 1) -->
+        <div class="cover-hero-center">
+          <div class="giant-title-box">
+            <h1 class="giant-title">portfolio</h1>
+            <div class="signature-overlay">
+              <span class="signature-text">Nandito Maulana Yedidkar</span>
+            </div>
+          </div>
+          <div class="cover-tagline">
+            <span>Web Developer</span> • <span>Game Developer</span> • <span>Telkom University Jakarta</span>
+          </div>
+        </div>
+
+        <!-- 3-Column Footer (PDF Exact Style) -->
+        <footer class="slide-footer">
+          <div class="footer-col left-col">
+            <a href="mailto:nanditomaulanayedikar@gmail.com" class="footer-link copy-email-btn" data-email="nanditomaulanayedikar@gmail.com" title="Klik untuk salin email">
+              @nanditomaulanayedikar@gmail.com
+            </a>
+          </div>
+          <div class="footer-col center-col">
+            <a href="https://maps.google.com/?q=Jakarta,Kuningan" target="_blank" rel="noopener noreferrer" class="footer-link">
+              Jakarta, Kuningan
+            </a>
+          </div>
+          <div class="footer-col right-col">
+            <a href="https://wa.me/6283119051731" target="_blank" rel="noopener noreferrer" class="footer-link">
+              +62 831-1905-1731
+            </a>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== SLIDE 2: INTRODUCTION ==================== -->
+    <section class="slide-section" id="introduction">
+      <div class="slide-inner">
+        
+        <header class="slide-header">
+          <h2 class="slide-title">introduction</h2>
+        </header>
+
+        <div class="intro-grid">
+          <!-- Col 1: Bold Block Headline -->
+          <div class="intro-headline-col">
+            <h3 class="intro-bold-text">
+              Halo, saya<br>
+              nandito<br>
+              Maulana<br>
+              yedikar
+            </h3>
+          </div>
+
+          <!-- Col 2: Narrative Paragraphs -->
+          <div class="intro-body-col">
+            <p class="intro-p">
+              Saya adalah mahasiswa Sistem Informasi (Universitas Telkom Jakarta) yang mendedikasikan diri pada seni pemrograman. Saya mengombinasikan logika teknis dengan estetika desain untuk menciptakan produk digital yang solutif.
+            </p>
+            <p class="intro-p">
+              Terbiasa menghadapi tantangan kompleks dengan pendekatan <strong>Data-Driven</strong> dan <strong>Creative Thinking</strong>, baik dalam pengembangan aplikasi web dinamis maupun game Android interaktif.
+            </p>
+
+            <div class="intro-pills">
+              <span class="intro-pill">Web Full-Stack</span>
+              <span class="intro-pill">Android Games</span>
+              <span class="intro-pill">Laravel &amp; MySQL</span>
+            </div>
+          </div>
+
+          <!-- Col 3: Profile Photo with Clean Frame -->
+          <div class="intro-photo-col">
+            <div class="photo-frame">
+              <img src="assets/profile.jpg" alt="Nandito Maulana Yedidkar" class="profile-photo" onerror="this.src='assets/extracted/page_2_img_1.jpeg';">
+            </div>
+          </div>
+        </div>
+
+        <!-- 3-Column Footer -->
+        <footer class="slide-footer">
+          <div class="footer-col left-col">
+            <a href="mailto:nanditomaulanayedikar@gmail.com" class="footer-link copy-email-btn" data-email="nanditomaulanayedikar@gmail.com">
+              @nanditomaulanayedikar@gmail.com
+            </a>
+          </div>
+          <div class="footer-col center-col">
+            <span class="footer-text">Jakarta, Kuningan</span>
+          </div>
+          <div class="footer-col right-col">
+            <a href="https://wa.me/6283119051731" target="_blank" rel="noopener noreferrer" class="footer-link">
+              +62 831-1905-1731
+            </a>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== SLIDE 3: MY EDUCATION ==================== -->
+    <section class="slide-section" id="education">
+      <div class="slide-inner">
+
+        <div class="education-layout">
+          <!-- Left Content -->
+          <div class="education-left">
+            <h2 class="slide-title">my education</h2>
+            <p class="section-desc">
+              Latar belakang pendidikan yang mendukung karir saya sebagai Web &amp; Game Developer. Dari tingkat kejuruan hingga perguruan tinggi, saya berfokus mengasah kemampuan teknis dan logika pemrograman untuk menciptakan produk digital yang fungsional
+            </p>
+          </div>
+
+          <!-- Right Abstract Graphic (from PDF Page 3) -->
+          <div class="education-right">
+            <div class="code-illustration-box">
+              <img src="assets/code-bg.png" alt="Programming Source Code Graphic" class="code-bg-img" onerror="this.parentElement.classList.add('code-fallback');">
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Education Milestones (SMPN 1 Kraksaan, SMKN 2 Kraksaan, Universitas Telkom Jakarta) -->
+        <div class="education-cards-row">
+          <div class="edu-card">
+            <div class="edu-card-top">
+              <span class="edu-type">Tingkat Menengah Pertama</span>
+            </div>
+            <h4 class="edu-school">SMPN 1 Kraksaan</h4>
+            <p class="edu-desc">
+              Menyelesaikan pendidikan tingkat menengah pertama dengan fokus pada akademis dasar.
+            </p>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-card-top">
+              <span class="edu-type">Pendidikan Kejuruan</span>
+            </div>
+            <h4 class="edu-school">SMKN 2 Kraksaan</h4>
+            <p class="edu-desc">
+              Jurusan Rekayasa Perangkat Lunak (RPL). Mulai mempelajari dasar-dasar pemrograman dan pengembangan perangkat lunak secara terstruktur.
+            </p>
+          </div>
+
+          <div class="edu-card current-edu">
+            <div class="edu-card-top">
+              <span class="edu-type highlight-badge">Perguruan Tinggi (Aktif)</span>
+            </div>
+            <h4 class="edu-school">Universitas Telkom Jakarta</h4>
+            <p class="edu-desc">
+              S1 Sistem Informasi (2023 - Sekarang). Berfokus pada pengembangan sistem, pembuatan web interaktif, dan game Android.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3-Column Footer -->
+        <footer class="slide-footer">
+          <div class="footer-col left-col">
+            <a href="mailto:nanditomaulanayedikar@gmail.com" class="footer-link copy-email-btn" data-email="nanditomaulanayedikar@gmail.com">
+              @nanditomaulanayedikar@gmail.com
+            </a>
+          </div>
+          <div class="footer-col center-col">
+            <span class="footer-text">Jakarta, Kuningan</span>
+          </div>
+          <div class="footer-col right-col">
+            <a href="https://wa.me/6283119051731" target="_blank" rel="noopener noreferrer" class="footer-link">
+              +62 831-1905-1731
+            </a>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== SLIDE 4: PERSONAL SKILLS ==================== -->
+    <section class="slide-section" id="skills">
+      <div class="slide-inner">
+
+        <div class="skills-layout">
+          <!-- Left: Workspace Photo with Coffee (Exact PDF Page 4) -->
+          <div class="skills-visual-col">
+            <div class="workspace-frame">
+              <img src="assets/workspace.jpg" alt="Developer Workspace Setup" class="workspace-photo" onerror="this.src='assets/extracted/page_4_img_1.jpeg';">
+            </div>
+          </div>
+
+          <!-- Right: Skills Content -->
+          <div class="skills-content-col">
+            <h2 class="slide-title">personal<br>skills</h2>
+            <p class="section-desc">
+              Menggabungkan keahlian teknis dan logika untuk membangun solusi digital yang efisien. Memiliki pengalaman dalam pengembangan web full-stack serta pembuatan game mobile yang interaktif dan fungsional.
+            </p>
+
+            <div class="skill-item-block">
+              <h4 class="skill-item-title">• Web Development</h4>
+              <p class="skill-item-desc">
+                Menguasai Laravel, PHP, dan MySQL untuk sisi backend, serta HTML, CSS, dan JavaScript untuk pengembangan antarmuka (frontend) yang responsif.
+              </p>
+              <div class="skill-tags-strip">
+                <span>Laravel</span>
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>HTML5 &amp; CSS3</span>
+                <span>JavaScript (ES6+)</span>
+                <span>REST API</span>
+              </div>
+            </div>
+
+            <div class="skill-item-block">
+              <h4 class="skill-item-title">• Game Development</h4>
+              <p class="skill-item-desc">
+                Pengembangan game Android interaktif dan edukasi, perancangan gameplay mechanics, kontrol sentuh responsif, level design terstruktur, serta ide konsep desain 3D untuk presentasi proyek.
+              </p>
+              <div class="skill-tags-strip">
+                <span>Android Game</span>
+                <span>Gameplay Mechanics</span>
+                <span>Level Design</span>
+                <span>3D Prototyping</span>
+                <span>Offline Games</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3-Column Footer -->
+        <footer class="slide-footer">
+          <div class="footer-col left-col">
+            <a href="mailto:nanditomaulanayedikar@gmail.com" class="footer-link copy-email-btn" data-email="nanditomaulanayedikar@gmail.com">
+              @nanditomaulanayedikar@gmail.com
+            </a>
+          </div>
+          <div class="footer-col center-col">
+            <span class="footer-text">Jakarta, Kuningan</span>
+          </div>
+          <div class="footer-col right-col">
+            <a href="https://wa.me/6283119051731" target="_blank" rel="noopener noreferrer" class="footer-link">
+              +62 831-1905-1731
+            </a>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== SLIDE 5: WORK EXPERIENCE ==================== -->
+    <section class="slide-section" id="experience">
+      <div class="slide-inner">
+
+        <div class="experience-layout full-width">
+          <!-- Experience Full Width Content -->
+          <div class="experience-full-col">
+            <h2 class="slide-title">work experience</h2>
+            <p class="section-desc experience-desc">
+              Merangkum perjalanan karier profesional saya di bidang pengembangan web dan game. Berpengalaman dalam merancang, mengembangkan, dan memelihara aplikasi digital yang optimal, mulai dari antarmuka pengguna hingga manajemen basis data.
+            </p>
+
+            <div class="exp-items-group full-width-group">
+              
+              <!-- 1. Web Profile WAMEN HAM -->
+              <div class="exp-row-item">
+                <div class="exp-row-header">
+                  <div class="exp-title-wrap">
+                    <h4 class="exp-item-title">• Web Profile WAMEN HAM</h4>
+                    <span class="exp-period-badge">Jan – Jul 2025</span>
+                  </div>
+                  <a href="https://mugiyanto.id" target="_blank" rel="noopener noreferrer" class="external-pill">mugiyanto.id ↗</a>
+                </div>
+                <p class="exp-item-text">
+                  Web Developer untuk <strong>mugiyanto.id</strong>. Bertanggung jawab membangun frontend interaktif dan sistem admin backend yang dinamis.
+                </p>
+              </div>
+
+              <!-- 2. Galeri Buku Jakarta -->
+              <div class="exp-row-item">
+                <div class="exp-row-header">
+                  <div class="exp-title-wrap">
+                    <h4 class="exp-item-title">• Galeri Buku Jakarta</h4>
+                    <span class="exp-period-badge">Maret 2023 – Desember 2023</span>
+                  </div>
+                  <a href="https://galeribukujakarta.com" target="_blank" rel="noopener noreferrer" class="external-pill">galeribukujakarta.com ↗</a>
+                </div>
+                <p class="exp-item-text">
+                  Web Developer untuk <strong>galeribukujakarta.com</strong>. Mengelola sisi frontend dan backend, integrasi database, serta optimasi performa.
+                </p>
+              </div>
+
+              <!-- 3. PT. Khailabs -->
+              <div class="exp-row-item">
+                <div class="exp-row-header">
+                  <div class="exp-title-wrap">
+                    <h4 class="exp-item-title">• PT. Khailabs</h4>
+                    <span class="exp-period-badge">Juni – Desember 2022</span>
+                  </div>
+                  <span class="status-pill-small">Game Studio Magang</span>
+                </div>
+                <p class="exp-item-text">
+                  Game Developer Magang. Mengembangkan dua game Android offline serta menyusun ide desain 3D untuk presentasi proyek.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- 3-Column Footer -->
+        <footer class="slide-footer">
+          <div class="footer-col left-col">
+            <a href="mailto:nanditomaulanayedikar@gmail.com" class="footer-link copy-email-btn" data-email="nanditomaulanayedikar@gmail.com">
+              @nanditomaulanayedikar@gmail.com
+            </a>
+          </div>
+          <div class="footer-col center-col">
+            <span class="footer-text">Jakarta, Kuningan</span>
+          </div>
+          <div class="footer-col right-col">
+            <a href="https://wa.me/6283119051731" target="_blank" rel="noopener noreferrer" class="footer-link">
+              +62 831-1905-1731
+            </a>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== SLIDE 6 & 7: PROJECT PORTFOLIO ==================== -->
+    <section class="slide-section" id="projects">
+      <div class="slide-inner">
+
+        <!-- Title Banner with Black Circle Arrow (Exact PDF Page 6) -->
+        <div class="project-headline-banner">
+          <h2 class="slide-title">project<br>portfolio</h2>
+          <div class="arrow-circle-button" title="Lihat semua proyek">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </div>
+        </div>
+
+        <!-- 3 Column Showcase (Exact PDF Page 7) -->
+        <div class="projects-columns-grid">
+          
+          <!-- Column 1: Galeri Buku Jakarta -->
+          <div class="project-showcase-column">
+            <div class="column-media-box">
+              <img src="assets/galeri-buku.png" alt="Galeri Buku Jakarta Project Showcase" class="column-media-img" onerror="this.src='assets/galeri-buku.jpg';">
+            </div>
+            <div class="column-details">
+              <h4 class="column-title">Galeri Buku Jakarta</h4>
+              <p class="column-role">Web Developer • Maret 2023 – Desember 2023</p>
+              <p class="column-desc">
+                Platform media literasi, resensi buku, esai kebudayaan, dan arsip puisi. Integrasi database katalog serta optimasi performa web.
+              </p>
+              <div class="column-actions">
+                <a href="https://galeribukujakarta.com" target="_blank" rel="noopener noreferrer" class="action-btn">
+                  <span>galeribukujakarta.com</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <button class="action-btn detail-btn" data-project="galeribuku">Detail Proyek</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Web Profile WAMEN HAM -->
+          <div class="project-showcase-column">
+            <div class="column-media-box">
+              <img src="assets/mugiyanto.png" alt="Web Profile Wakil Menteri HAM Mugiyanto" class="column-media-img" onerror="this.src='assets/mugiyanto.jpg';">
+            </div>
+            <div class="column-details">
+              <h4 class="column-title">Web Profile WAMEN HAM</h4>
+              <p class="column-role">Web Developer • Jan – Jul 2025</p>
+              <p class="column-desc">
+                Situs profil resmi Wakil Menteri HAM RI Mugiyanto. Frontend dinamis, rilis siaran pers eksekutif, dan sistem admin backend.
+              </p>
+              <div class="column-actions">
+                <a href="https://mugiyanto.id" target="_blank" rel="noopener noreferrer" class="action-btn">
+                  <span>mugiyanto.id</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <button class="action-btn detail-btn" data-project="mugiyanto">Detail Proyek</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 3: Earth Clean Up -->
+          <div class="project-showcase-column">
+            <div class="column-media-box">
+              <img src="assets/earth-cleanup.png" alt="Earth Clean Up Mobile Android Game" class="column-media-img" onerror="this.src='assets/earth-cleanup.jpg';">
+            </div>
+            <div class="column-details">
+              <h4 class="column-title">Earth Clean Up</h4>
+              <p class="column-role">Game Developer Magang • PT. Khailabs</p>
+              <p class="column-desc">
+                Game Android edukasi lingkungan interaktif dengan 6 level progresif, sistem sortir sampah, reward bintang, dan gameplay offline.
+              </p>
+              <div class="column-actions">
+                <button class="action-btn detail-btn primary-btn" data-project="earthcleanup">
+                  <span>Lihat Gameplay &amp; Info</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 3-Column Footer -->
+        <footer class="slide-footer">
+          <div class="footer-col left-col">
+            <a href="mailto:nanditomaulanayedikar@gmail.com" class="footer-link copy-email-btn" data-email="nanditomaulanayedikar@gmail.com">
+              @nanditomaulanayedikar@gmail.com
+            </a>
+          </div>
+          <div class="footer-col center-col">
+            <span class="footer-text">Jakarta, Kuningan</span>
+          </div>
+          <div class="footer-col right-col">
+            <a href="https://wa.me/6283119051731" target="_blank" rel="noopener noreferrer" class="footer-link">
+              +62 831-1905-1731
+            </a>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== SLIDE 8: THANK YOU & CONTACT ==================== -->
+    <section class="slide-section thank-you-section" id="contact">
+      <div class="slide-inner">
+
+        <!-- Giant Thank You with Signature Overlay (Exact PDF Page 8) -->
+        <div class="thank-you-center-box">
+          <div class="giant-title-box">
+            <h2 class="giant-title">thank you</h2>
+            <div class="signature-overlay">
+              <span class="signature-text">Nandito Maulana Yedidkar</span>
+            </div>
+          </div>
+          <p class="thank-you-note">
+            Tertarik bekerja sama atau berdiskusi mengenai proyek web dan game development?
+          </p>
+        </div>
+
+        <!-- Interactive Direct Actions Bar -->
+        <div class="contact-interaction-strip">
+          <a href="https://wa.me/6283119051731?text=Halo%20Nandito,%20saya%20melihat%20portfolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi." target="_blank" rel="noopener noreferrer" class="contact-action-box wa-box">
+            <div class="action-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div class="action-box-info">
+              <span class="box-label">WhatsApp Langsung</span>
+              <span class="box-value">+62 831-1905-1731</span>
+            </div>
+          </a>
+
+          <a href="mailto:nanditomaulanayedikar@gmail.com" class="contact-action-box email-box copy-email-btn" data-email="nanditomaulanayedikar@gmail.com">
+            <div class="action-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div class="action-box-info">
+              <span class="box-label">Email Pribadi (Klik Salin)</span>
+              <span class="box-value">nanditomaulanayedikar@gmail.com</span>
+            </div>
+          </a>
+
+          <div class="contact-action-box location-box">
+            <div class="action-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div class="action-box-info">
+              <span class="box-label">Lokasi Saat Ini</span>
+              <span class="box-value">Jakarta, Kuningan</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3-Column Footer -->
+        <footer class="slide-footer">
+          <div class="footer-col left-col">
+            <a href="mailto:nanditomaulanayedikar@gmail.com" class="footer-link copy-email-btn" data-email="nanditomaulanayedikar@gmail.com">
+              @nanditomaulanayedikar@gmail.com
+            </a>
+          </div>
+          <div class="footer-col center-col">
+            <span class="footer-text">Jakarta, Kuningan</span>
+          </div>
+          <div class="footer-col right-col">
+            <a href="https://wa.me/6283119051731" target="_blank" rel="noopener noreferrer" class="footer-link">
+              +62 831-1905-1731
+            </a>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Interactive Project Detail Modal -->
+  <div id="project-modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Tutup">&times;</button>
+      <div id="modal-content" class="modal-content-slot"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
